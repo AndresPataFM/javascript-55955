@@ -58,5 +58,6 @@ const nombreUsuario = prompt("Ingrese su nombre")
 alert("Nombre ingresado = " + nombreUsuario)
 
 const confirmar = confirm("¿Quiso ingresar eso?")
+
 console.log("confirm", confirmar)
 console.log(typeof nombreUsuario)
