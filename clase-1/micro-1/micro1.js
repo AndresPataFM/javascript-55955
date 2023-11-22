@@ -8,3 +8,10 @@ Tips:
 🔹 Utiliza la consola para ayudarte a encontrar los errores o fallas que provocan que el código no funcione.
 */
 
+let numero = 0;
+let hilo = "hola";
+let booleano = true;
+
+console.log("number: ", numero)
+console.log("string: ", hilo)
+console.log("boolean: ", booleano)

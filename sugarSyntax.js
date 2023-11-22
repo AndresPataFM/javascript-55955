@@ -1,6 +1,6 @@
-// ++
 let i =0
 
+// ++
 i++
 // es igual que
 i = i+1

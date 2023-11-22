@@ -2,6 +2,7 @@ var saludo = "hola"; // NO LO USEN
 let despedida = "chau";
 const dni = 54165664;
 
+
 // Tipos de datos primitivos
 
 
