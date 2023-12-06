@@ -64,5 +64,6 @@ const stringONumero5 = "7"*"4" // 28
 // Con las backtick ` y ${} se pueden insertar lógica de Js a strings
 // pueden insertarse variables
 let manzanaInicial = 7
+
 const templateString = `Si Juan tiene 7 manzanas y le regala 3 a Pedro le quedan ${manzanaInicial-3} manzanas`
 

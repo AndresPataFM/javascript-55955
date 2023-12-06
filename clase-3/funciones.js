@@ -144,11 +144,11 @@ console.log("sumar1III",sumar1III(1))
 
 
 // si la función es un return simple de una línea se puede simplificar así, el return es implicito
-const sumar1IV = (a) => a+1
+const sumar1IV = (a) => a + 1
 console.log("sumar1IV",sumar1IV(1))
 
 // si hay solo 1 parámetro, se pueden obviar los paréntesis, si no hay parametros se mantienen los paréntesis vacíos
-const sumar1V = a => a+1
+const sumar1V = a => a + 1
 console.log("sumar1V",sumar1V(1))
 
 // ⛔ NO SE CONFUNDAN console.log() CON UN return, UNO SOLO IMPRIME EN CONSOLA, OTRO RETORNA UN VALOR DE LA FUNCIÓN ⛔ 
