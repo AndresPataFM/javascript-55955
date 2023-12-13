@@ -96,11 +96,11 @@ const firulais = new Perro("Firulais", "Macho", 3)
 // console.log("pirulo", pirulo)
 // console.log("firulais", firulais)
 
-const array1 = [0,1,2]
-// No copia, hace referencia al no ser dato pritivo
-const array2 = array1
+// const array1 = [0,1,2]
+// // No copia, hace referencia al no ser dato pritivo
+// const array2 = array1
 
-array2.push(3)
+// array2.push(3)
 
 // console.log(array1)
 
@@ -215,3 +215,18 @@ function agregarProd(producto){
   console.log(carrito)
 }
 
+const array1 = [0,1,2]
+// No copia, hace referencia al no ser dato pritivo
+const array2 = array1
+
+array2.push(3)
+console.log("1", array1)
+console.log("2", array2)
+
+const array3 = [0,1,2]
+// No copia, hace referencia al no ser dato pritivo
+const array4 = JSON.parse(JSON.stringify(array1))
+
+array2.push(3)
+console.log("3", array3)
+console.log("4", array4)
