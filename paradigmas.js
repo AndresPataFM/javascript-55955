@@ -20,3 +20,10 @@
 
 // 🔶 Funcional vs Procedimental 🔶
 //  prepar código que van a utilizar
+
+// 🔶🔹 Objetos 🔹🔶
+// 🔶 Encapsulamiento 🔶
+// Que un objeto solo sea modificado por sus propios métodos
+
+// 🔶 Polimorfismo 🔶
+

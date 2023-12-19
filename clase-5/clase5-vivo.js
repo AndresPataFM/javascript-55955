@@ -230,3 +230,4 @@ const array4 = JSON.parse(JSON.stringify(array1))
 array2.push(3)
 console.log("3", array3)
 console.log("4", array4)
+
