@@ -4,5 +4,6 @@ function saludar(){
 function despedir(){
     console.log("chau")
 }
+const nombre = "Andrés"
 
-export {saludar, despedir};
+export {saludar, despedir, nombre};

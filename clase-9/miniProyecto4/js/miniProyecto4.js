@@ -155,7 +155,7 @@ const productosPreexistentes = async ()=>{
             // es buena pracitca poner aparte el link con el que trabajas, hay mejor manejo.
             const URLraiz = "/clase-9/miniProyecto4/products.json" // Mejor si hay varios HTML en distintos lados
             const URLprodRelativo = "./products.json" // Marea porque es en relacion al HTML!!!
-            const productosBasePuro = await fetch(URLraiz)
+            const productosBasePuro = await fetch(URLprodRelativo)
             const productosBase = await productosBasePuro.json()
             productosBase.forEach(prod=>{
                 let dato = JSON.parse(JSON.stringify(prod))
